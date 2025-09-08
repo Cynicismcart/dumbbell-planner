@@ -25,8 +25,10 @@
 
 ## 📦 安装
 
+> 假设你已经把源码文件（`main.py`、`planner.py`、`requirements.txt` 等）放在仓库根目录。
+
 ```bash
-git clone https://github.com/yourname/dumbbell-planner.git
+git clone https://github.com/<yourname>/dumbbell-planner.git
 cd dumbbell-planner
 python -m venv .venv && . .venv/Scripts/activate  # Windows PowerShell
 pip install -r requirements.txt
@@ -81,8 +83,6 @@ python main.py
 - 每片以矩形绘制，**片内标注 KG**；
 - 仅用于可视化的**细缝**不会改变实际厚度计算。
 
-> 小技巧：可用系统截图工具保存当前上片图。也可在 `PlateDiagramCanvas.draw_layout()` 中扩展自定义导出 PNG。
-
 ---
 
 ## 📁 数据格式（JSON）
@@ -104,7 +104,7 @@ python main.py
 - 代码结构：
   - `planner.py`：核心枚举与组合逻辑（与 GUI 解耦，可单独测试）。
   - `main.py`：PySide6 GUI、可视化、导入导出、搜索等。
-- 代码风格：建议 `black` + `flake8`（CI 已配置）。
+- 代码风格：`black` + `flake8`（CI 已配置）。
 
 ### 运行测试
 

@@ -1,0 +1,32 @@
+[
+  {
+    "weight": 3.0,
+    "thickness": 4.0,
+    "count": 10,
+    "label": "3 kg"
+  },
+  {
+    "weight": 2.5,
+    "thickness": 4.0,
+    "count": 2,
+    "label": "2.5 kg"
+  },
+  {
+    "weight": 2.0,
+    "thickness": 4.0,
+    "count": 4,
+    "label": "2 kg"
+  },
+  {
+    "weight": 1.5,
+    "thickness": 3.5,
+    "count": 2,
+    "label": "1.5 kg"
+  },
+  {
+    "weight": 1.25,
+    "thickness": 3.0,
+    "count": 10,
+    "label": "1.25 kg"
+  }
+]

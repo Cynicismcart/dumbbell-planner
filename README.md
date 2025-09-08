@@ -1,3 +1,4 @@
+
 # Dumbbell Planner — 哑铃/连接杆组合计算器（含上片图）
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -28,7 +29,7 @@
 > 假设你已经把源码文件（`main.py`、`planner.py`、`requirements.txt` 等）放在仓库根目录。
 
 ```bash
-git clone https://github.com/<yourname>/dumbbell-planner.git
+git clone https://github.com/Cynicismcart/dumbbell-planner.git
 cd dumbbell-planner
 python -m venv .venv && . .venv/Scripts/activate  # Windows PowerShell
 pip install -r requirements.txt
@@ -134,4 +135,4 @@ pytest -q
 
 ## 📜 许可证
 
-本项目使用 [MIT License](LICENSE)。版权所有 © 2025 Elizabeth Baker
+本项目使用 [MIT License](LICENSE)。版权所有 © 2025 Cynicismcart
